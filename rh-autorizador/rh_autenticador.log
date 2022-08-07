@@ -1,0 +1,1119 @@
+2022-08-07 15:56:05.047  INFO 25604 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2022-08-07 15:56:15.365  WARN 25604 --- [main] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: None of labels [] found
+2022-08-07 15:56:15.367  INFO 25604 --- [main] c.d.hroauth.HrOauthApplication           : No active profile set, falling back to default profiles: default
+2022-08-07 15:56:15.956  WARN 25604 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-08-07 15:56:16.056  INFO 25604 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2356c287-f3f8-32d5-a4a0-4571f5b8efdb
+2022-08-07 15:56:16.073  INFO 25604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.devsuperior.hroauth.feignclients.UserFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-07 15:56:16.277  INFO 25604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-07 15:56:16.284  INFO 25604 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-07 15:56:16.284  INFO 25604 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2022-08-07 15:56:16.385  INFO 25604 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-07 15:56:16.386  INFO 25604 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1005 ms
+2022-08-07 15:56:16.441  WARN 25604 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-08-07 15:56:16.442  INFO 25604 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-07 15:56:16.451  INFO 25604 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@45b7c97f
+2022-08-07 15:56:16.531  WARN 25604 --- [main] o.s.s.o.p.t.s.JwtAccessTokenConverter    : Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2022-08-07 15:56:16.825  WARN 25604 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-08-07 15:56:16.826  INFO 25604 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-07 15:56:16.963  INFO 25604 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-07 15:56:17.572  INFO 25604 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@627dfd9f, org.springframework.security.web.context.SecurityContextPersistenceFilter@369958b0, org.springframework.security.web.header.HeaderWriterFilter@1923301a, org.springframework.security.web.authentication.logout.LogoutFilter@3f04349b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@309d9033, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2e1c3b8f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5fe08, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@35e64c7b, org.springframework.security.web.session.SessionManagementFilter@73ae084e, org.springframework.security.web.access.ExceptionTranslationFilter@6eaa5458, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@29509774]
+2022-08-07 15:56:17.574  INFO 25604 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@136d1d58, org.springframework.security.web.context.SecurityContextPersistenceFilter@19b7852b, org.springframework.security.web.header.HeaderWriterFilter@7e0fc5d0, org.springframework.security.web.csrf.CsrfFilter@563bf9d2, org.springframework.security.web.authentication.logout.LogoutFilter@13c79e0d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6193a9e2, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4ab1ff80, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5d956649, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@347074a9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@24fcfdb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2eebb07, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@21b508a0, org.springframework.security.web.session.SessionManagementFilter@10cb1b89, org.springframework.security.web.access.ExceptionTranslationFilter@19305a7c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@340f4723]
+2022-08-07 15:56:17.808  INFO 25604 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-07 15:56:17.808  INFO 25604 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-07 15:56:17.827  INFO 25604 --- [RMI TCP Connection(3)-127.0.0.1] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoint(s) beneath base path '/actuator'
+2022-08-07 15:56:17.836  INFO 25604 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses Jersey
+2022-08-07 15:56:17.838  INFO 25604 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 29 ms
+2022-08-07 15:56:17.851  WARN 25604 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2022-08-07 15:56:17.879  WARN 25604 --- [main] s.o.SpringCloudSecurityAutoConfiguration : All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2022-08-07 15:56:17.948  INFO 25604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 56772 (http) with context path ''
+2022-08-07 15:56:17.948  INFO 25604 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 56772
+2022-08-07 15:56:17.952  INFO 25604 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-08-07 15:56:17.990  INFO 25604 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-08-07 15:56:18.126  INFO 25604 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2022-08-07 15:56:18.126  INFO 25604 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2022-08-07 15:56:18.245  INFO 25604 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2022-08-07 15:56:18.245  INFO 25604 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2022-08-07 15:56:18.466  INFO 25604 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-08-07 15:56:18.500  INFO 25604 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-08-07 15:56:18.501  INFO 25604 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-08-07 15:56:18.501  INFO 25604 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-08-07 15:56:18.501  INFO 25604 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-08-07 15:56:18.501  INFO 25604 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-08-07 15:56:18.501  INFO 25604 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-08-07 15:56:18.501  INFO 25604 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-08-07 15:56:18.584  INFO 25604 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-08-07 15:56:18.589  INFO 25604 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-08-07 15:56:18.594  INFO 25604 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-08-07 15:56:18.603  INFO 25604 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1659898578602 with initial instances count: 2
+2022-08-07 15:56:18.604  INFO 25604 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application RH-AUTORIZADOR with eureka with status UP
+2022-08-07 15:56:18.604  INFO 25604 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1659898578604, current=UP, previous=STARTING]
+2022-08-07 15:56:18.605  INFO 25604 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_RH-AUTORIZADOR/rh-autorizador:84a02573c64c664053eef567442683db: registering service...
+2022-08-07 15:56:18.616  INFO 25604 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_RH-AUTORIZADOR/rh-autorizador:84a02573c64c664053eef567442683db - registration status: 204
+2022-08-07 15:56:18.838  INFO 25604 --- [main] c.d.hroauth.HrOauthApplication           : Started HrOauthApplication in 14.765 seconds (JVM running for 15.377)
+2022-08-07 15:56:54.912  INFO 25604 --- [RMI TCP Connection(12)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-08-07 15:56:54.913  INFO 25604 --- [RMI TCP Connection(12)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application RH-AUTORIZADOR with eureka with status DOWN
+2022-08-07 15:56:54.913  WARN 25604 --- [RMI TCP Connection(12)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1659898614913, current=DOWN, previous=UP]
+2022-08-07 15:56:54.913  INFO 25604 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_RH-AUTORIZADOR/rh-autorizador:84a02573c64c664053eef567442683db: registering service...
+2022-08-07 15:56:54.917  INFO 25604 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_RH-AUTORIZADOR/rh-autorizador:84a02573c64c664053eef567442683db - registration status: 204
+2022-08-07 15:56:54.939  INFO 25604 --- [RMI TCP Connection(12)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-08-07 15:56:54.940  INFO 25604 --- [RMI TCP Connection(12)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-08-07 15:56:54.989  INFO 25604 --- [RMI TCP Connection(12)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-07 15:56:54.992  INFO 25604 --- [RMI TCP Connection(12)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-08-07 15:56:58.022  INFO 25604 --- [RMI TCP Connection(12)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-08-07 15:56:58.034  INFO 25604 --- [RMI TCP Connection(12)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_RH-AUTORIZADOR/rh-autorizador:84a02573c64c664053eef567442683db - deregister  status: 200
+2022-08-07 15:56:58.240  INFO 25604 --- [RMI TCP Connection(12)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-08-07 15:57:05.764  INFO 27408 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2022-08-07 15:57:16.126  WARN 27408 --- [main] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: None of labels [] found
+2022-08-07 15:57:16.128  INFO 27408 --- [main] c.d.hroauth.HrOauthApplication           : No active profile set, falling back to default profiles: default
+2022-08-07 15:57:16.660  WARN 27408 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-08-07 15:57:16.764  INFO 27408 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2356c287-f3f8-32d5-a4a0-4571f5b8efdb
+2022-08-07 15:57:16.782  INFO 27408 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.devsuperior.hroauth.feignclients.UserFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-07 15:57:16.990  INFO 27408 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-07 15:57:16.998  INFO 27408 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-07 15:57:16.999  INFO 27408 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2022-08-07 15:57:17.153  INFO 27408 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-07 15:57:17.153  INFO 27408 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1014 ms
+2022-08-07 15:57:17.219  WARN 27408 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-08-07 15:57:17.219  INFO 27408 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-07 15:57:17.228  INFO 27408 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@147efd9
+2022-08-07 15:57:17.310  WARN 27408 --- [main] o.s.s.o.p.t.s.JwtAccessTokenConverter    : Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2022-08-07 15:57:17.609  WARN 27408 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-08-07 15:57:17.610  INFO 27408 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-07 15:57:17.747  INFO 27408 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-07 15:57:18.337  INFO 27408 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@f61b92d, org.springframework.security.web.context.SecurityContextPersistenceFilter@1631a614, org.springframework.security.web.header.HeaderWriterFilter@38fc2c39, org.springframework.security.web.authentication.logout.LogoutFilter@650929dc, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@283074e8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@68f1e261, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6eaa5458, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@22277482, org.springframework.security.web.session.SessionManagementFilter@1e8fd198, org.springframework.security.web.access.ExceptionTranslationFilter@38bce2ed, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4d5d6297]
+2022-08-07 15:57:18.339  INFO 27408 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@563bf9d2, org.springframework.security.web.context.SecurityContextPersistenceFilter@5b6789cf, org.springframework.security.web.header.HeaderWriterFilter@51f91d19, org.springframework.security.web.csrf.CsrfFilter@35e64c7b, org.springframework.security.web.authentication.logout.LogoutFilter@4f1a4d61, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@367a245e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1988e095, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@19305a7c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@65b17373, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@70882cb7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6980e66a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7e0fc5d0, org.springframework.security.web.session.SessionManagementFilter@5ce593bc, org.springframework.security.web.access.ExceptionTranslationFilter@17179a7e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2dac4d04]
+2022-08-07 15:57:18.490  INFO 27408 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-07 15:57:18.490  INFO 27408 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-07 15:57:18.583  INFO 27408 --- [RMI TCP Connection(3)-127.0.0.1] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoint(s) beneath base path '/actuator'
+2022-08-07 15:57:18.590  INFO 27408 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses Jersey
+2022-08-07 15:57:18.594  INFO 27408 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 104 ms
+2022-08-07 15:57:18.604  WARN 27408 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2022-08-07 15:57:18.626  WARN 27408 --- [main] s.o.SpringCloudSecurityAutoConfiguration : All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2022-08-07 15:57:18.692  INFO 27408 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 56845 (http) with context path ''
+2022-08-07 15:57:18.693  INFO 27408 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 56845
+2022-08-07 15:57:18.696  INFO 27408 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-08-07 15:57:18.728  INFO 27408 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-08-07 15:57:18.860  INFO 27408 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2022-08-07 15:57:18.860  INFO 27408 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2022-08-07 15:57:18.975  INFO 27408 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2022-08-07 15:57:18.976  INFO 27408 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2022-08-07 15:57:19.264  INFO 27408 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-08-07 15:57:19.309  INFO 27408 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-08-07 15:57:19.309  INFO 27408 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-08-07 15:57:19.309  INFO 27408 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-08-07 15:57:19.309  INFO 27408 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-08-07 15:57:19.310  INFO 27408 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-08-07 15:57:19.310  INFO 27408 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-08-07 15:57:19.310  INFO 27408 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-08-07 15:57:19.422  INFO 27408 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-08-07 15:57:19.428  INFO 27408 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-08-07 15:57:19.434  INFO 27408 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-08-07 15:57:19.443  INFO 27408 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1659898639442 with initial instances count: 2
+2022-08-07 15:57:19.444  INFO 27408 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application AUTORIZADOR with eureka with status UP
+2022-08-07 15:57:19.444  INFO 27408 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1659898639444, current=UP, previous=STARTING]
+2022-08-07 15:57:19.445  INFO 27408 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTORIZADOR/autorizador:b6a2df2f4cf9ce16a9f30ce4e7ec7b03: registering service...
+2022-08-07 15:57:19.458  INFO 27408 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTORIZADOR/autorizador:b6a2df2f4cf9ce16a9f30ce4e7ec7b03 - registration status: 204
+2022-08-07 15:57:19.671  INFO 27408 --- [main] c.d.hroauth.HrOauthApplication           : Started HrOauthApplication in 14.871 seconds (JVM running for 15.479)
+2022-08-07 15:59:55.654  INFO 25988 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2022-08-07 16:00:06.997  WARN 25988 --- [main] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: None of labels [] found
+2022-08-07 16:00:06.999  INFO 25988 --- [main] c.d.hroauth.HrOauthApplication           : No active profile set, falling back to default profiles: default
+2022-08-07 16:00:07.601  WARN 25988 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-08-07 16:00:07.717  INFO 25988 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2356c287-f3f8-32d5-a4a0-4571f5b8efdb
+2022-08-07 16:00:07.734  INFO 25988 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.devsuperior.hroauth.feignclients.UserFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-07 16:00:07.963  INFO 25988 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-07 16:00:07.971  INFO 25988 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-07 16:00:07.971  INFO 25988 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2022-08-07 16:00:08.078  INFO 25988 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-07 16:00:08.078  INFO 25988 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1067 ms
+2022-08-07 16:00:08.143  WARN 25988 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-08-07 16:00:08.144  INFO 25988 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-07 16:00:08.155  INFO 25988 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4052913c
+2022-08-07 16:00:08.243  WARN 25988 --- [main] o.s.s.o.p.t.s.JwtAccessTokenConverter    : Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2022-08-07 16:00:08.562  WARN 25988 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-08-07 16:00:08.562  INFO 25988 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-07 16:00:08.715  INFO 25988 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-07 16:00:09.365  INFO 25988 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@63f6811e, org.springframework.security.web.context.SecurityContextPersistenceFilter@3e94a6f6, org.springframework.security.web.header.HeaderWriterFilter@15d18b61, org.springframework.security.web.authentication.logout.LogoutFilter@33fefbbe, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3503e68e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@14738629, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@22599048, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5565d718, org.springframework.security.web.session.SessionManagementFilter@7ae5f795, org.springframework.security.web.access.ExceptionTranslationFilter@54602d5a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7197b96c]
+2022-08-07 16:00:09.367  INFO 25988 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@f41db7f, org.springframework.security.web.context.SecurityContextPersistenceFilter@5086e144, org.springframework.security.web.header.HeaderWriterFilter@1b6daf20, org.springframework.security.web.csrf.CsrfFilter@39b50027, org.springframework.security.web.authentication.logout.LogoutFilter@3470c771, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@69ca71b3, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@79cfc008, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4df8f4e9, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@371a7fd5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@557fe039, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@231d5119, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7785430c, org.springframework.security.web.session.SessionManagementFilter@41a3656f, org.springframework.security.web.access.ExceptionTranslationFilter@24c4370a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@72161dbb]
+2022-08-07 16:00:09.605  INFO 25988 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses Jersey
+2022-08-07 16:00:09.620  WARN 25988 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2022-08-07 16:00:09.644  WARN 25988 --- [main] s.o.SpringCloudSecurityAutoConfiguration : All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2022-08-07 16:00:09.648  INFO 25988 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoint(s) beneath base path '/actuator'
+2022-08-07 16:00:09.723  INFO 25988 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 57017 (http) with context path ''
+2022-08-07 16:00:09.724  INFO 25988 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 57017
+2022-08-07 16:00:09.732  INFO 25988 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-08-07 16:00:09.768  INFO 25988 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-08-07 16:00:09.896  INFO 25988 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2022-08-07 16:00:09.896  INFO 25988 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2022-08-07 16:00:10.029  INFO 25988 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2022-08-07 16:00:10.029  INFO 25988 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2022-08-07 16:00:10.178  INFO 25988 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-07 16:00:10.178  INFO 25988 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-07 16:00:10.183  INFO 25988 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2022-08-07 16:00:10.318  INFO 25988 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-08-07 16:00:10.351  INFO 25988 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-08-07 16:00:10.351  INFO 25988 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-08-07 16:00:10.351  INFO 25988 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-08-07 16:00:10.351  INFO 25988 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-08-07 16:00:10.351  INFO 25988 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-08-07 16:00:10.351  INFO 25988 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-08-07 16:00:10.351  INFO 25988 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-08-07 16:00:10.444  INFO 25988 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-08-07 16:00:10.449  INFO 25988 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-08-07 16:00:10.454  INFO 25988 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-08-07 16:00:10.462  INFO 25988 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1659898810462 with initial instances count: 3
+2022-08-07 16:00:10.463  INFO 25988 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application AUTORIZADOR with eureka with status UP
+2022-08-07 16:00:10.464  INFO 25988 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1659898810464, current=UP, previous=STARTING]
+2022-08-07 16:00:10.465  INFO 25988 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTORIZADOR/autorizador:0fbc611523b9df571892094f4b837dce: registering service...
+2022-08-07 16:00:10.476  INFO 25988 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTORIZADOR/autorizador:0fbc611523b9df571892094f4b837dce - registration status: 204
+2022-08-07 16:00:10.689  INFO 25988 --- [main] c.d.hroauth.HrOauthApplication           : Started HrOauthApplication in 16.1 seconds (JVM running for 16.906)
+2022-08-07 16:00:16.488  INFO 27408 --- [RMI TCP Connection(19)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-08-07 16:00:16.489  INFO 27408 --- [RMI TCP Connection(19)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application AUTORIZADOR with eureka with status DOWN
+2022-08-07 16:00:16.489  WARN 27408 --- [RMI TCP Connection(19)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1659898816489, current=DOWN, previous=UP]
+2022-08-07 16:00:16.490  INFO 27408 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTORIZADOR/autorizador:b6a2df2f4cf9ce16a9f30ce4e7ec7b03: registering service...
+2022-08-07 16:00:16.494  INFO 27408 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTORIZADOR/autorizador:b6a2df2f4cf9ce16a9f30ce4e7ec7b03 - registration status: 204
+2022-08-07 16:00:16.516  INFO 27408 --- [RMI TCP Connection(19)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-08-07 16:00:16.517  INFO 27408 --- [RMI TCP Connection(19)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-08-07 16:00:16.567  INFO 27408 --- [RMI TCP Connection(19)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-07 16:00:16.571  INFO 27408 --- [RMI TCP Connection(19)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-08-07 16:00:19.573  WARN 27408 --- [DiscoveryClient-1] c.netflix.discovery.TimedSupervisorTask  : task supervisor shutting down, can't accept the task
+2022-08-07 16:00:19.580  INFO 27408 --- [RMI TCP Connection(19)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-08-07 16:00:19.584  INFO 27408 --- [RMI TCP Connection(19)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTORIZADOR/autorizador:b6a2df2f4cf9ce16a9f30ce4e7ec7b03 - deregister  status: 200
+2022-08-07 16:00:19.747  INFO 27408 --- [RMI TCP Connection(19)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-08-07 16:00:24.391  INFO 25988 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-08-07 16:00:24.393  INFO 25988 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application AUTORIZADOR with eureka with status DOWN
+2022-08-07 16:00:24.393  WARN 25988 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1659898824393, current=DOWN, previous=UP]
+2022-08-07 16:00:24.394  INFO 25988 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTORIZADOR/autorizador:0fbc611523b9df571892094f4b837dce: registering service...
+2022-08-07 16:00:24.403  INFO 25988 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTORIZADOR/autorizador:0fbc611523b9df571892094f4b837dce - registration status: 204
+2022-08-07 16:00:24.428  INFO 25988 --- [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-08-07 16:00:24.429  INFO 25988 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-08-07 16:00:24.486  INFO 25988 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-07 16:00:24.490  INFO 25988 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-08-07 16:00:27.505  INFO 25988 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-08-07 16:00:27.509  INFO 25988 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTORIZADOR/autorizador:0fbc611523b9df571892094f4b837dce - deregister  status: 200
+2022-08-07 16:00:27.672  INFO 25988 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-08-07 16:00:45.465  INFO 29316 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2022-08-07 16:00:55.950  WARN 29316 --- [main] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: None of labels [] found
+2022-08-07 16:00:55.952  INFO 29316 --- [main] c.d.hroauth.HrOauthApplication           : No active profile set, falling back to default profiles: default
+2022-08-07 16:00:56.502  WARN 29316 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-08-07 16:00:56.600  INFO 29316 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2356c287-f3f8-32d5-a4a0-4571f5b8efdb
+2022-08-07 16:00:56.617  INFO 29316 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.devsuperior.hroauth.feignclients.UserFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-07 16:00:56.816  INFO 29316 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-07 16:00:56.823  INFO 29316 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-07 16:00:56.823  INFO 29316 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2022-08-07 16:00:56.924  INFO 29316 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-07 16:00:56.925  INFO 29316 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 962 ms
+2022-08-07 16:00:56.979  WARN 29316 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-08-07 16:00:56.980  INFO 29316 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-07 16:00:56.988  INFO 29316 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@147efd9
+2022-08-07 16:00:57.071  WARN 29316 --- [main] o.s.s.o.p.t.s.JwtAccessTokenConverter    : Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2022-08-07 16:00:57.371  WARN 29316 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-08-07 16:00:57.371  INFO 29316 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-07 16:00:57.503  INFO 29316 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-07 16:00:58.101  INFO 29316 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@9198fe3, org.springframework.security.web.context.SecurityContextPersistenceFilter@1e8fd198, org.springframework.security.web.header.HeaderWriterFilter@38bce2ed, org.springframework.security.web.authentication.logout.LogoutFilter@377b773c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6d3dc0c5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1631a614, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@21298c3a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6cc9f35d, org.springframework.security.web.session.SessionManagementFilter@38fc2c39, org.springframework.security.web.access.ExceptionTranslationFilter@70028163, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2df6d461]
+2022-08-07 16:00:58.103  INFO 29316 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@367a245e, org.springframework.security.web.context.SecurityContextPersistenceFilter@51f91d19, org.springframework.security.web.header.HeaderWriterFilter@35e64c7b, org.springframework.security.web.csrf.CsrfFilter@6945fdb8, org.springframework.security.web.authentication.logout.LogoutFilter@1988e095, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@30407f28, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@70882cb7, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@65b17373, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2dac4d04, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5ce593bc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5b6789cf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@563bf9d2, org.springframework.security.web.session.SessionManagementFilter@17179a7e, org.springframework.security.web.access.ExceptionTranslationFilter@627dfd9f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7f1581bb]
+2022-08-07 16:00:58.339  INFO 29316 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses Jersey
+2022-08-07 16:00:58.352  WARN 29316 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2022-08-07 16:00:58.373  WARN 29316 --- [main] s.o.SpringCloudSecurityAutoConfiguration : All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2022-08-07 16:00:58.377  INFO 29316 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoint(s) beneath base path '/actuator'
+2022-08-07 16:00:58.447  INFO 29316 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 61005 (http) with context path ''
+2022-08-07 16:00:58.448  INFO 29316 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 61005
+2022-08-07 16:00:58.452  INFO 29316 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-08-07 16:00:58.484  INFO 29316 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-08-07 16:00:58.616  INFO 29316 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2022-08-07 16:00:58.617  INFO 29316 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2022-08-07 16:00:58.731  INFO 29316 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2022-08-07 16:00:58.731  INFO 29316 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2022-08-07 16:00:58.958  INFO 29316 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-08-07 16:00:58.991  INFO 29316 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-08-07 16:00:58.991  INFO 29316 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-08-07 16:00:58.991  INFO 29316 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-08-07 16:00:58.991  INFO 29316 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-08-07 16:00:58.991  INFO 29316 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-08-07 16:00:58.991  INFO 29316 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-08-07 16:00:58.992  INFO 29316 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-08-07 16:00:59.075  INFO 29316 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-08-07 16:00:59.079  INFO 29316 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-08-07 16:00:59.083  INFO 29316 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-08-07 16:00:59.091  INFO 29316 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1659898859091 with initial instances count: 3
+2022-08-07 16:00:59.092  INFO 29316 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application AUTORIZADOR with eureka with status UP
+2022-08-07 16:00:59.092  INFO 29316 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1659898859092, current=UP, previous=STARTING]
+2022-08-07 16:00:59.093  INFO 29316 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTORIZADOR/autorizador:4501abc69c629b76f6c8fc59134caa88: registering service...
+2022-08-07 16:00:59.110  INFO 29316 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTORIZADOR/autorizador:4501abc69c629b76f6c8fc59134caa88 - registration status: 204
+2022-08-07 16:00:59.333  INFO 29316 --- [main] c.d.hroauth.HrOauthApplication           : Started HrOauthApplication in 14.84 seconds (JVM running for 15.45)
+2022-08-07 16:01:00.724  INFO 29316 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-07 16:01:00.725  INFO 29316 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-07 16:01:00.728  INFO 29316 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-08-07 16:01:47.431  INFO 29316 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-08-07 16:01:47.432  INFO 29316 --- [RMI TCP Connection(10)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application AUTORIZADOR with eureka with status DOWN
+2022-08-07 16:01:47.432  WARN 29316 --- [RMI TCP Connection(10)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1659898907432, current=DOWN, previous=UP]
+2022-08-07 16:01:47.432  INFO 29316 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTORIZADOR/autorizador:4501abc69c629b76f6c8fc59134caa88: registering service...
+2022-08-07 16:01:47.436  INFO 29316 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTORIZADOR/autorizador:4501abc69c629b76f6c8fc59134caa88 - registration status: 204
+2022-08-07 16:01:47.457  INFO 29316 --- [RMI TCP Connection(10)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-08-07 16:01:47.458  INFO 29316 --- [RMI TCP Connection(10)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-08-07 16:01:47.507  INFO 29316 --- [RMI TCP Connection(10)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-07 16:01:47.510  INFO 29316 --- [RMI TCP Connection(10)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-08-07 16:01:50.517  INFO 29316 --- [RMI TCP Connection(10)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-08-07 16:01:50.521  INFO 29316 --- [RMI TCP Connection(10)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTORIZADOR/autorizador:4501abc69c629b76f6c8fc59134caa88 - deregister  status: 200
+2022-08-07 16:01:50.680  INFO 29316 --- [RMI TCP Connection(10)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-08-07 16:02:08.919  INFO 20160 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2022-08-07 16:02:19.314  WARN 20160 --- [main] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: None of labels [] found
+2022-08-07 16:02:19.317  INFO 20160 --- [main] c.d.hroauth.HrOauthApplication           : No active profile set, falling back to default profiles: default
+2022-08-07 16:02:19.866  WARN 20160 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-08-07 16:02:19.966  INFO 20160 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2356c287-f3f8-32d5-a4a0-4571f5b8efdb
+2022-08-07 16:02:19.983  INFO 20160 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.devsuperior.hroauth.feignclients.UserFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-07 16:02:20.180  INFO 20160 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-07 16:02:20.187  INFO 20160 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-07 16:02:20.187  INFO 20160 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2022-08-07 16:02:20.288  INFO 20160 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-07 16:02:20.288  INFO 20160 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 955 ms
+2022-08-07 16:02:20.344  WARN 20160 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-08-07 16:02:20.344  INFO 20160 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-07 16:02:20.353  INFO 20160 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@147efd9
+2022-08-07 16:02:20.436  WARN 20160 --- [main] o.s.s.o.p.t.s.JwtAccessTokenConverter    : Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2022-08-07 16:02:20.727  WARN 20160 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-08-07 16:02:20.727  INFO 20160 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-07 16:02:20.862  INFO 20160 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-07 16:02:21.468  INFO 20160 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@f61b92d, org.springframework.security.web.context.SecurityContextPersistenceFilter@1631a614, org.springframework.security.web.header.HeaderWriterFilter@38fc2c39, org.springframework.security.web.authentication.logout.LogoutFilter@650929dc, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@283074e8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@68f1e261, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6eaa5458, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@22277482, org.springframework.security.web.session.SessionManagementFilter@1e8fd198, org.springframework.security.web.access.ExceptionTranslationFilter@38bce2ed, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4d5d6297]
+2022-08-07 16:02:21.471  INFO 20160 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@563bf9d2, org.springframework.security.web.context.SecurityContextPersistenceFilter@5b6789cf, org.springframework.security.web.header.HeaderWriterFilter@51f91d19, org.springframework.security.web.csrf.CsrfFilter@35e64c7b, org.springframework.security.web.authentication.logout.LogoutFilter@4f1a4d61, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@367a245e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1988e095, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@19305a7c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@65b17373, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@70882cb7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6980e66a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7e0fc5d0, org.springframework.security.web.session.SessionManagementFilter@5ce593bc, org.springframework.security.web.access.ExceptionTranslationFilter@17179a7e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2dac4d04]
+2022-08-07 16:02:21.710  INFO 20160 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses Jersey
+2022-08-07 16:02:21.724  WARN 20160 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2022-08-07 16:02:21.745  WARN 20160 --- [main] s.o.SpringCloudSecurityAutoConfiguration : All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2022-08-07 16:02:21.749  INFO 20160 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoint(s) beneath base path '/actuator'
+2022-08-07 16:02:21.815  INFO 20160 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 61174 (http) with context path ''
+2022-08-07 16:02:21.816  INFO 20160 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 61174
+2022-08-07 16:02:21.819  INFO 20160 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-08-07 16:02:21.851  INFO 20160 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-08-07 16:02:21.902  INFO 20160 --- [RMI TCP Connection(4)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-07 16:02:21.903  INFO 20160 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-07 16:02:21.907  INFO 20160 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2022-08-07 16:02:21.999  INFO 20160 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2022-08-07 16:02:22.000  INFO 20160 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2022-08-07 16:02:22.110  INFO 20160 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2022-08-07 16:02:22.110  INFO 20160 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2022-08-07 16:02:22.330  INFO 20160 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-08-07 16:02:22.362  INFO 20160 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-08-07 16:02:22.362  INFO 20160 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-08-07 16:02:22.362  INFO 20160 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-08-07 16:02:22.362  INFO 20160 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-08-07 16:02:22.363  INFO 20160 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-08-07 16:02:22.363  INFO 20160 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-08-07 16:02:22.363  INFO 20160 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-08-07 16:02:22.442  INFO 20160 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-08-07 16:02:22.447  INFO 20160 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-08-07 16:02:22.451  INFO 20160 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-08-07 16:02:22.459  INFO 20160 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1659898942459 with initial instances count: 3
+2022-08-07 16:02:22.460  INFO 20160 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application AUTORIZADOR with eureka with status UP
+2022-08-07 16:02:22.461  INFO 20160 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1659898942461, current=UP, previous=STARTING]
+2022-08-07 16:02:22.462  INFO 20160 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTORIZADOR/autorizador:429b1a8b5c55e411e4f2db2c5974056e: registering service...
+2022-08-07 16:02:22.471  INFO 20160 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTORIZADOR/autorizador:429b1a8b5c55e411e4f2db2c5974056e - registration status: 204
+2022-08-07 16:02:22.690  INFO 20160 --- [main] c.d.hroauth.HrOauthApplication           : Started HrOauthApplication in 14.743 seconds (JVM running for 15.362)
+2022-08-07 16:04:10.862  INFO 20160 --- [RMI TCP Connection(12)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-08-07 16:04:10.863  INFO 20160 --- [RMI TCP Connection(12)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application AUTORIZADOR with eureka with status DOWN
+2022-08-07 16:04:10.864  WARN 20160 --- [RMI TCP Connection(12)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1659899050864, current=DOWN, previous=UP]
+2022-08-07 16:04:10.864  INFO 20160 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTORIZADOR/autorizador:429b1a8b5c55e411e4f2db2c5974056e: registering service...
+2022-08-07 16:04:10.869  INFO 20160 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTORIZADOR/autorizador:429b1a8b5c55e411e4f2db2c5974056e - registration status: 204
+2022-08-07 16:04:10.901  INFO 20160 --- [RMI TCP Connection(12)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-08-07 16:04:10.902  INFO 20160 --- [RMI TCP Connection(12)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-08-07 16:04:10.951  INFO 20160 --- [RMI TCP Connection(12)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-07 16:04:10.956  INFO 20160 --- [RMI TCP Connection(12)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-08-07 16:04:13.965  INFO 20160 --- [RMI TCP Connection(12)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-08-07 16:04:18.060 ERROR 20160 --- [RMI TCP Connection(12)-127.0.0.1] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
+
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: no further information
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.delete(WebResource.java:591) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.cancel(AbstractJerseyEurekaHttpClient.java:77) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:969) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:945) ~[eureka-client-1.9.25.jar:1.9.25]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:242) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:235) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:403) ~[spring-cloud-context-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:142) ~[spring-cloud-context-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:258) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:170) ~[spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:979) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160) ~[spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:260) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1466) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:827) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:691) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705) ~[na:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:648) ~[na:na]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.12.jar:4.5.12]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 83 common frames omitted
+
+2022-08-07 16:04:18.063  WARN 20160 --- [RMI TCP Connection(12)-127.0.0.1] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: no further information
+2022-08-07 16:04:22.124 ERROR 20160 --- [RMI TCP Connection(12)-127.0.0.1] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
+
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: no further information
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.delete(WebResource.java:591) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.cancel(AbstractJerseyEurekaHttpClient.java:77) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:969) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:945) ~[eureka-client-1.9.25.jar:1.9.25]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:242) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:235) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:403) ~[spring-cloud-context-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:142) ~[spring-cloud-context-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:258) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:170) ~[spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:979) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160) ~[spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:260) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1466) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:827) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:691) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705) ~[na:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:648) ~[na:na]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.12.jar:4.5.12]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 84 common frames omitted
+
+2022-08-07 16:04:22.128  WARN 20160 --- [RMI TCP Connection(12)-127.0.0.1] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: no further information
+2022-08-07 16:04:22.129 ERROR 20160 --- [RMI TCP Connection(12)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTORIZADOR/autorizador:429b1a8b5c55e411e4f2db2c5974056e - de-registration failedCannot execute request on any known server
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:969) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:945) ~[eureka-client-1.9.25.jar:1.9.25]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:242) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:235) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:403) ~[spring-cloud-context-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:142) ~[spring-cloud-context-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:258) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:170) ~[spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:979) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160) ~[spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:260) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1466) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:827) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:691) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705) ~[na:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2022-08-07 16:04:22.301  INFO 20160 --- [RMI TCP Connection(12)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-08-07 16:08:29.858  INFO 11700 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2022-08-07 16:08:31.948  INFO 11700 --- [main] c.c.c.ConfigServicePropertySourceLocator : Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+2022-08-07 16:08:31.948  WARN 11700 --- [main] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/autorizador/default": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information
+2022-08-07 16:08:31.951  INFO 11700 --- [main] c.d.hroauth.HrOauthApplication           : No active profile set, falling back to default profiles: default
+2022-08-07 16:08:32.530  WARN 11700 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-08-07 16:08:32.632  INFO 11700 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2356c287-f3f8-32d5-a4a0-4571f5b8efdb
+2022-08-07 16:08:32.650  INFO 11700 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.devsuperior.hroauth.feignclients.UserFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-07 16:08:32.851  INFO 11700 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-07 16:08:32.858  INFO 11700 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-07 16:08:32.859  INFO 11700 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2022-08-07 16:08:32.965  INFO 11700 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-07 16:08:32.966  INFO 11700 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 997 ms
+2022-08-07 16:08:33.031  WARN 11700 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-08-07 16:08:33.031  INFO 11700 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-07 16:08:33.040  INFO 11700 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@66d3b881
+2022-08-07 16:08:33.121  WARN 11700 --- [main] o.s.s.o.p.t.s.JwtAccessTokenConverter    : Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2022-08-07 16:08:33.416  WARN 11700 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-08-07 16:08:33.416  INFO 11700 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-07 16:08:33.550  INFO 11700 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-07 16:08:34.312  INFO 11700 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3bfbe2a6, org.springframework.security.web.context.SecurityContextPersistenceFilter@21dd405a, org.springframework.security.web.header.HeaderWriterFilter@6c418f0b, org.springframework.security.web.authentication.logout.LogoutFilter@47166740, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4dea763c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6ee0ef34, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@17287458, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@275ff5f8, org.springframework.security.web.session.SessionManagementFilter@99ace98, org.springframework.security.web.access.ExceptionTranslationFilter@578cd644, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3d41881]
+2022-08-07 16:08:34.315  INFO 11700 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3b802baa, org.springframework.security.web.context.SecurityContextPersistenceFilter@6e6c723b, org.springframework.security.web.header.HeaderWriterFilter@34c79268, org.springframework.security.web.csrf.CsrfFilter@64aab3fd, org.springframework.security.web.authentication.logout.LogoutFilter@36996b37, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@442e7215, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7115d5af, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@109941fa, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5b1ebbe, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@66859669, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6e591c03, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@27103726, org.springframework.security.web.session.SessionManagementFilter@5fe80760, org.springframework.security.web.access.ExceptionTranslationFilter@2565b097, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6289376f]
+2022-08-07 16:08:34.572  INFO 11700 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses Jersey
+2022-08-07 16:08:34.586  WARN 11700 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2022-08-07 16:08:34.612  WARN 11700 --- [main] s.o.SpringCloudSecurityAutoConfiguration : All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2022-08-07 16:08:34.616  INFO 11700 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoint(s) beneath base path '/actuator'
+2022-08-07 16:08:34.697  INFO 11700 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 64745 (http) with context path ''
+2022-08-07 16:08:34.698  INFO 11700 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 64745
+2022-08-07 16:08:34.700  INFO 11700 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-08-07 16:08:34.733  INFO 11700 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-08-07 16:08:34.883  INFO 11700 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2022-08-07 16:08:34.883  INFO 11700 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2022-08-07 16:08:35.002  INFO 11700 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2022-08-07 16:08:35.002  INFO 11700 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2022-08-07 16:08:35.215  INFO 11700 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-08-07 16:08:35.247  INFO 11700 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-08-07 16:08:35.247  INFO 11700 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-08-07 16:08:35.247  INFO 11700 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-08-07 16:08:35.247  INFO 11700 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-08-07 16:08:35.247  INFO 11700 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-08-07 16:08:35.247  INFO 11700 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-08-07 16:08:35.247  INFO 11700 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-08-07 16:08:35.646  INFO 11700 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-07 16:08:35.646  INFO 11700 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-07 16:08:35.652  INFO 11700 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2022-08-07 16:08:39.344 ERROR 11700 --- [main] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
+
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: no further information
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:196) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplications(AbstractJerseyEurekaHttpClient.java:167) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1097) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:1011) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:440) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:282) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:278) ~[eureka-client-1.9.25.jar:1.9.25]
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:67) ~[spring-cloud-netflix-eureka-client-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:316) ~[spring-cloud-netflix-eureka-client-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:650) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:635) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:363) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:389) ~[spring-cloud-context-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:186) ~[spring-cloud-context-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:360) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35) ~[spring-aop-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getTargetObject(EurekaRegistration.java:129) ~[spring-cloud-netflix-eureka-client-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getEurekaClient(EurekaRegistration.java:117) ~[spring-cloud-netflix-eureka-client-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282) ~[spring-core-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:499) ~[spring-cloud-context-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) ~[spring-aop-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691) ~[spring-aop-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration$$EnhancerBySpringCGLIB$$a3a7a00a.getEurekaClient(<generated>) ~[spring-cloud-netflix-eureka-client-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.maybeInitializeClient(EurekaServiceRegistry.java:57) ~[spring-cloud-netflix-eureka-client-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register(EurekaServiceRegistry.java:38) ~[spring-cloud-netflix-eureka-client-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.start(EurekaAutoServiceRegistration.java:83) ~[spring-cloud-netflix-eureka-client-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.onApplicationEvent(EurekaAutoServiceRegistration.java:147) ~[spring-cloud-netflix-eureka-client-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.onApplicationEvent(EurekaAutoServiceRegistration.java:132) ~[spring-cloud-netflix-eureka-client-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:404) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:361) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:46) ~[spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:895) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) ~[spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) ~[spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) ~[spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) ~[spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at com.devsuperior.hroauth.HrOauthApplication.main(HrOauthApplication.java:14) ~[classes/:na]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:648) ~[na:na]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.12.jar:4.5.12]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 83 common frames omitted
+
+2022-08-07 16:08:39.348  WARN 11700 --- [main] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: no further information
+2022-08-07 16:08:39.349 ERROR 11700 --- [main] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTORIZADOR/autorizador:dfa4d77c325818db404e8a1c4f765c50 - was unable to refresh its cache! status = Cannot execute request on any known server
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1097) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:1011) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:440) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:282) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:278) ~[eureka-client-1.9.25.jar:1.9.25]
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:67) ~[spring-cloud-netflix-eureka-client-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:316) ~[spring-cloud-netflix-eureka-client-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:650) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:635) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:363) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:389) ~[spring-cloud-context-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:186) ~[spring-cloud-context-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:360) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35) ~[spring-aop-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getTargetObject(EurekaRegistration.java:129) ~[spring-cloud-netflix-eureka-client-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getEurekaClient(EurekaRegistration.java:117) ~[spring-cloud-netflix-eureka-client-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282) ~[spring-core-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:499) ~[spring-cloud-context-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) ~[spring-aop-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691) ~[spring-aop-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration$$EnhancerBySpringCGLIB$$a3a7a00a.getEurekaClient(<generated>) ~[spring-cloud-netflix-eureka-client-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.maybeInitializeClient(EurekaServiceRegistry.java:57) ~[spring-cloud-netflix-eureka-client-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register(EurekaServiceRegistry.java:38) ~[spring-cloud-netflix-eureka-client-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.start(EurekaAutoServiceRegistration.java:83) ~[spring-cloud-netflix-eureka-client-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.onApplicationEvent(EurekaAutoServiceRegistration.java:147) ~[spring-cloud-netflix-eureka-client-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.onApplicationEvent(EurekaAutoServiceRegistration.java:132) ~[spring-cloud-netflix-eureka-client-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:404) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:361) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:46) ~[spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:895) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) ~[spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) ~[spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) ~[spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) ~[spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at com.devsuperior.hroauth.HrOauthApplication.main(HrOauthApplication.java:14) ~[classes/:na]
+
+2022-08-07 16:08:39.350  INFO 11700 --- [main] com.netflix.discovery.DiscoveryClient    : Initial registry fetch from primary servers failed
+2022-08-07 16:08:39.350  WARN 11700 --- [main] com.netflix.discovery.DiscoveryClient    : Using default backup registry implementation which does not do anything.
+2022-08-07 16:08:39.350  INFO 11700 --- [main] com.netflix.discovery.DiscoveryClient    : Initial registry fetch from backup servers failed
+2022-08-07 16:08:39.354  INFO 11700 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-08-07 16:08:39.359  INFO 11700 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-08-07 16:08:39.368  INFO 11700 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1659899319367 with initial instances count: 0
+2022-08-07 16:08:39.369  INFO 11700 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application AUTORIZADOR with eureka with status UP
+2022-08-07 16:08:39.369  INFO 11700 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1659899319369, current=UP, previous=STARTING]
+2022-08-07 16:08:39.370  INFO 11700 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTORIZADOR/autorizador:dfa4d77c325818db404e8a1c4f765c50: registering service...
+2022-08-07 16:08:39.686  INFO 11700 --- [main] c.d.hroauth.HrOauthApplication           : Started HrOauthApplication in 10.816 seconds (JVM running for 11.436)
+2022-08-07 16:08:43.428 ERROR 11700 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
+
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: no further information
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:57) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:873) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) ~[eureka-client-1.9.25.jar:1.9.25]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:648) ~[na:na]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.12.jar:4.5.12]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 29 common frames omitted
+
+2022-08-07 16:08:43.429  WARN 11700 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: no further information
+2022-08-07 16:08:43.429  WARN 11700 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTORIZADOR/autorizador:dfa4d77c325818db404e8a1c4f765c50 - registration failed Cannot execute request on any known server
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:873) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) ~[eureka-client-1.9.25.jar:1.9.25]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2022-08-07 16:08:43.429  WARN 11700 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.discovery.InstanceInfoReplicator     : There was a problem with the instance info replicator
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:873) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) ~[eureka-client-1.9.25.jar:1.9.25]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) ~[eureka-client-1.9.25.jar:1.9.25]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2022-08-07 16:09:09.354  INFO 11700 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-08-07 16:09:09.354  INFO 11700 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-08-07 16:09:09.355  INFO 11700 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-08-07 16:09:09.355  INFO 11700 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-08-07 16:09:09.355  INFO 11700 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-08-07 16:09:09.355  INFO 11700 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-08-07 16:09:09.355  INFO 11700 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-08-07 16:09:09.378  INFO 11700 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTORIZADOR/autorizador:dfa4d77c325818db404e8a1c4f765c50 - Re-registering apps/AUTORIZADOR
+2022-08-07 16:09:09.378  INFO 11700 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTORIZADOR/autorizador:dfa4d77c325818db404e8a1c4f765c50: registering service...
+2022-08-07 16:09:09.390  INFO 11700 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTORIZADOR/autorizador:dfa4d77c325818db404e8a1c4f765c50 - registration status: 204
+2022-08-07 16:09:09.394  INFO 11700 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-08-07 16:12:08.026  INFO 11700 --- [RMI TCP Connection(14)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-08-07 16:12:08.027  INFO 11700 --- [RMI TCP Connection(14)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application AUTORIZADOR with eureka with status DOWN
+2022-08-07 16:12:08.028  WARN 11700 --- [RMI TCP Connection(14)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1659899528028, current=DOWN, previous=UP]
+2022-08-07 16:12:08.028  INFO 11700 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTORIZADOR/autorizador:dfa4d77c325818db404e8a1c4f765c50: registering service...
+2022-08-07 16:12:08.033  INFO 11700 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTORIZADOR/autorizador:dfa4d77c325818db404e8a1c4f765c50 - registration status: 204
+2022-08-07 16:12:08.055  INFO 11700 --- [RMI TCP Connection(14)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-08-07 16:12:08.056  INFO 11700 --- [RMI TCP Connection(14)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-08-07 16:12:08.106  INFO 11700 --- [RMI TCP Connection(14)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-07 16:12:08.110  INFO 11700 --- [RMI TCP Connection(14)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-08-07 16:12:11.118  WARN 11700 --- [DiscoveryClient-0] c.netflix.discovery.TimedSupervisorTask  : task supervisor shutting down, can't accept the task
+2022-08-07 16:12:11.124  INFO 11700 --- [RMI TCP Connection(14)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-08-07 16:12:11.131  INFO 11700 --- [RMI TCP Connection(14)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTORIZADOR/autorizador:dfa4d77c325818db404e8a1c4f765c50 - deregister  status: 200
+2022-08-07 16:12:11.362  INFO 11700 --- [RMI TCP Connection(14)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-08-07 16:12:19.396  INFO 14860 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2022-08-07 16:12:29.856  WARN 14860 --- [main] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: None of labels [] found
+2022-08-07 16:12:29.858  INFO 14860 --- [main] c.d.hroauth.HrOauthApplication           : No active profile set, falling back to default profiles: default
+2022-08-07 16:12:30.401  WARN 14860 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-08-07 16:12:30.510  INFO 14860 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2356c287-f3f8-32d5-a4a0-4571f5b8efdb
+2022-08-07 16:12:30.536  INFO 14860 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.devsuperior.hroauth.feignclients.UserFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-07 16:12:30.761  INFO 14860 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-07 16:12:30.769  INFO 14860 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-07 16:12:30.769  INFO 14860 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2022-08-07 16:12:30.869  INFO 14860 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-07 16:12:30.869  INFO 14860 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 999 ms
+2022-08-07 16:12:30.922  WARN 14860 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-08-07 16:12:30.922  INFO 14860 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-07 16:12:30.930  INFO 14860 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@d9f5fce
+2022-08-07 16:12:31.010  WARN 14860 --- [main] o.s.s.o.p.t.s.JwtAccessTokenConverter    : Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2022-08-07 16:12:31.313  WARN 14860 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-08-07 16:12:31.313  INFO 14860 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-07 16:12:31.454  INFO 14860 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-07 16:12:32.086  INFO 14860 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1e82b631, org.springframework.security.web.context.SecurityContextPersistenceFilter@1923301a, org.springframework.security.web.header.HeaderWriterFilter@21298c3a, org.springframework.security.web.authentication.logout.LogoutFilter@72e9c0a0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5fc44b4b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@73ae084e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4b90a402, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@42c2a1da, org.springframework.security.web.session.SessionManagementFilter@6eaa5458, org.springframework.security.web.access.ExceptionTranslationFilter@6ac9742e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@283074e8]
+2022-08-07 16:12:32.088  INFO 14860 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1b9785aa, org.springframework.security.web.context.SecurityContextPersistenceFilter@563bf9d2, org.springframework.security.web.header.HeaderWriterFilter@367a245e, org.springframework.security.web.csrf.CsrfFilter@30407f28, org.springframework.security.web.authentication.logout.LogoutFilter@24fcfdb, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@648639f1, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@10cb1b89, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@340f4723, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@210e971e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@19305a7c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7e0fc5d0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6193a9e2, org.springframework.security.web.session.SessionManagementFilter@65b17373, org.springframework.security.web.access.ExceptionTranslationFilter@2dac4d04, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@13c79e0d]
+2022-08-07 16:12:32.324  INFO 14860 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses Jersey
+2022-08-07 16:12:32.337  WARN 14860 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2022-08-07 16:12:32.359  WARN 14860 --- [main] s.o.SpringCloudSecurityAutoConfiguration : All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2022-08-07 16:12:32.363  INFO 14860 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoint(s) beneath base path '/actuator'
+2022-08-07 16:12:32.432  INFO 14860 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 50563 (http) with context path ''
+2022-08-07 16:12:32.432  INFO 14860 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 50563
+2022-08-07 16:12:32.435  INFO 14860 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-08-07 16:12:32.466  INFO 14860 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-08-07 16:12:32.598  INFO 14860 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2022-08-07 16:12:32.598  INFO 14860 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2022-08-07 16:12:32.710  INFO 14860 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2022-08-07 16:12:32.710  INFO 14860 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2022-08-07 16:12:32.928  INFO 14860 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-08-07 16:12:32.961  INFO 14860 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-08-07 16:12:32.961  INFO 14860 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-08-07 16:12:32.961  INFO 14860 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-08-07 16:12:32.961  INFO 14860 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-08-07 16:12:32.961  INFO 14860 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-08-07 16:12:32.961  INFO 14860 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-08-07 16:12:32.961  INFO 14860 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-08-07 16:12:33.041  INFO 14860 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-08-07 16:12:33.045  INFO 14860 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-08-07 16:12:33.049  INFO 14860 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-08-07 16:12:33.057  INFO 14860 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1659899553057 with initial instances count: 2
+2022-08-07 16:12:33.058  INFO 14860 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application AUTORIZADOR with eureka with status UP
+2022-08-07 16:12:33.059  INFO 14860 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1659899553059, current=UP, previous=STARTING]
+2022-08-07 16:12:33.060  INFO 14860 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTORIZADOR/autorizador:05f4d95dd11ab803143acb86bca6c230: registering service...
+2022-08-07 16:12:33.076  INFO 14860 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTORIZADOR/autorizador:05f4d95dd11ab803143acb86bca6c230 - registration status: 204
+2022-08-07 16:12:33.301  INFO 14860 --- [main] c.d.hroauth.HrOauthApplication           : Started HrOauthApplication in 14.971 seconds (JVM running for 15.664)
+2022-08-07 16:12:34.952  INFO 14860 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-07 16:12:34.952  INFO 14860 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-07 16:12:34.955  INFO 14860 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-08-07 16:13:28.146  INFO 14860 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-08-07 16:13:28.146  INFO 14860 --- [RMI TCP Connection(10)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application AUTORIZADOR with eureka with status DOWN
+2022-08-07 16:13:28.147  WARN 14860 --- [RMI TCP Connection(10)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1659899608147, current=DOWN, previous=UP]
+2022-08-07 16:13:28.147  INFO 14860 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTORIZADOR/autorizador:05f4d95dd11ab803143acb86bca6c230: registering service...
+2022-08-07 16:13:28.151  INFO 14860 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTORIZADOR/autorizador:05f4d95dd11ab803143acb86bca6c230 - registration status: 204
+2022-08-07 16:13:28.174  INFO 14860 --- [RMI TCP Connection(10)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-08-07 16:13:28.175  INFO 14860 --- [RMI TCP Connection(10)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-08-07 16:13:28.238  INFO 14860 --- [RMI TCP Connection(10)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-07 16:13:28.250  INFO 14860 --- [RMI TCP Connection(10)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-08-07 16:13:31.269  INFO 14860 --- [RMI TCP Connection(10)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-08-07 16:13:31.274  INFO 14860 --- [RMI TCP Connection(10)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTORIZADOR/autorizador:05f4d95dd11ab803143acb86bca6c230 - deregister  status: 200
+2022-08-07 16:13:31.443  INFO 14860 --- [RMI TCP Connection(10)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-08-07 16:13:39.137  INFO 28204 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2022-08-07 16:13:49.527  WARN 28204 --- [main] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: None of labels [] found
+2022-08-07 16:13:49.528  INFO 28204 --- [main] c.d.hroauth.HrOauthApplication           : No active profile set, falling back to default profiles: default
+2022-08-07 16:13:50.061  WARN 28204 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-08-07 16:13:50.157  INFO 28204 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2356c287-f3f8-32d5-a4a0-4571f5b8efdb
+2022-08-07 16:13:50.174  INFO 28204 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.devsuperior.hroauth.feignclients.UserFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-07 16:13:50.366  INFO 28204 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-07 16:13:50.372  INFO 28204 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-07 16:13:50.372  INFO 28204 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2022-08-07 16:13:50.471  INFO 28204 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-07 16:13:50.471  INFO 28204 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 929 ms
+2022-08-07 16:13:50.524  WARN 28204 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-08-07 16:13:50.524  INFO 28204 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-07 16:13:50.532  INFO 28204 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@147efd9
+2022-08-07 16:13:50.608  WARN 28204 --- [main] o.s.s.o.p.t.s.JwtAccessTokenConverter    : Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2022-08-07 16:13:50.898  WARN 28204 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-08-07 16:13:50.898  INFO 28204 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-07 16:13:51.036  INFO 28204 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-07 16:13:51.619  INFO 28204 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@f61b92d, org.springframework.security.web.context.SecurityContextPersistenceFilter@1631a614, org.springframework.security.web.header.HeaderWriterFilter@38fc2c39, org.springframework.security.web.authentication.logout.LogoutFilter@650929dc, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@283074e8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@68f1e261, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6eaa5458, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@22277482, org.springframework.security.web.session.SessionManagementFilter@1e8fd198, org.springframework.security.web.access.ExceptionTranslationFilter@38bce2ed, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4d5d6297]
+2022-08-07 16:13:51.621  INFO 28204 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@563bf9d2, org.springframework.security.web.context.SecurityContextPersistenceFilter@5b6789cf, org.springframework.security.web.header.HeaderWriterFilter@51f91d19, org.springframework.security.web.csrf.CsrfFilter@35e64c7b, org.springframework.security.web.authentication.logout.LogoutFilter@4f1a4d61, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@367a245e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1988e095, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@19305a7c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@65b17373, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@70882cb7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6980e66a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7e0fc5d0, org.springframework.security.web.session.SessionManagementFilter@5ce593bc, org.springframework.security.web.access.ExceptionTranslationFilter@17179a7e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2dac4d04]
+2022-08-07 16:13:51.856  INFO 28204 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses Jersey
+2022-08-07 16:13:51.870  WARN 28204 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2022-08-07 16:13:51.890  WARN 28204 --- [main] s.o.SpringCloudSecurityAutoConfiguration : All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2022-08-07 16:13:51.893  INFO 28204 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoint(s) beneath base path '/actuator'
+2022-08-07 16:13:51.957  INFO 28204 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 50643 (http) with context path ''
+2022-08-07 16:13:51.958  INFO 28204 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 50643
+2022-08-07 16:13:51.960  INFO 28204 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-08-07 16:13:51.993  INFO 28204 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-08-07 16:13:52.125  INFO 28204 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2022-08-07 16:13:52.125  INFO 28204 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2022-08-07 16:13:52.240  INFO 28204 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2022-08-07 16:13:52.240  INFO 28204 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2022-08-07 16:13:52.446  INFO 28204 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-08-07 16:13:52.477  INFO 28204 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-08-07 16:13:52.477  INFO 28204 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-08-07 16:13:52.477  INFO 28204 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-08-07 16:13:52.477  INFO 28204 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-08-07 16:13:52.477  INFO 28204 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-08-07 16:13:52.477  INFO 28204 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-08-07 16:13:52.477  INFO 28204 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-08-07 16:13:52.558  INFO 28204 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-08-07 16:13:52.563  INFO 28204 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-08-07 16:13:52.568  INFO 28204 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-08-07 16:13:52.576  INFO 28204 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1659899632576 with initial instances count: 3
+2022-08-07 16:13:52.577  INFO 28204 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application RH-AUTORIZADOR with eureka with status UP
+2022-08-07 16:13:52.577  INFO 28204 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1659899632577, current=UP, previous=STARTING]
+2022-08-07 16:13:52.578  INFO 28204 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_RH-AUTORIZADOR/rh-autorizador:4859ed270941dc11c6cd3db985a3bf70: registering service...
+2022-08-07 16:13:52.595  INFO 28204 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_RH-AUTORIZADOR/rh-autorizador:4859ed270941dc11c6cd3db985a3bf70 - registration status: 204
+2022-08-07 16:13:52.716  INFO 28204 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-07 16:13:52.716  INFO 28204 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-07 16:13:52.719  INFO 28204 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-08-07 16:13:52.808  INFO 28204 --- [main] c.d.hroauth.HrOauthApplication           : Started HrOauthApplication in 14.611 seconds (JVM running for 15.214)
+2022-08-07 16:14:31.406  INFO 28204 --- [http-nio-auto-1-exec-1] c.netflix.config.ChainedDynamicProperty  : Flipping property: rh-usuario.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2022-08-07 16:14:31.428  INFO 28204 --- [http-nio-auto-1-exec-1] c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-rh-usuario
+2022-08-07 16:14:31.428  INFO 28204 --- [http-nio-auto-1-exec-1] c.netflix.loadbalancer.BaseLoadBalancer  : Client: rh-usuario instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=rh-usuario,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2022-08-07 16:14:31.438  INFO 28204 --- [http-nio-auto-1-exec-1] c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2022-08-07 16:14:31.458  INFO 28204 --- [http-nio-auto-1-exec-1] c.netflix.config.ChainedDynamicProperty  : Flipping property: rh-usuario.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2022-08-07 16:14:31.462  INFO 28204 --- [http-nio-auto-1-exec-1] c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client rh-usuario initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=rh-usuario,current list of Servers=[DESKTOP-DTHLGAE:50140],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:DESKTOP-DTHLGAE:50140;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Wed Dec 31 21:00:00 BRT 1969;	First connection made: Wed Dec 31 21:00:00 BRT 1969;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@78c3e933
+2022-08-07 16:14:31.611  INFO 28204 --- [http-nio-auto-1-exec-1] c.d.hroauth.services.UsuarioService      : Email found: admin@gmail.com
+2022-08-07 16:14:32.441  INFO 28204 --- [PollingServerListUpdater-0] c.netflix.config.ChainedDynamicProperty  : Flipping property: rh-usuario.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2022-08-07 16:15:09.042  WARN 28204 --- [http-nio-auto-1-exec-2] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InternalAuthenticationServiceException, Connect timed out executing GET http://rh-usuario/usuario/busca?email=nina%40gmail.com
+2022-08-07 16:15:15.082  WARN 28204 --- [http-nio-auto-1-exec-3] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InternalAuthenticationServiceException, Connect timed out executing GET http://rh-usuario/usuario/busca?email=nina%40gmail.com
+2022-08-07 16:15:24.318  WARN 28204 --- [http-nio-auto-1-exec-4] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InternalAuthenticationServiceException, Connect timed out executing GET http://rh-usuario/usuario/busca?email=admin%40gmail.com
+2022-08-07 16:15:27.436  WARN 28204 --- [http-nio-auto-1-exec-5] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InternalAuthenticationServiceException, Connect timed out executing GET http://rh-usuario/usuario/busca?email=admin%40gmail.com
+2022-08-07 16:15:30.504  WARN 28204 --- [http-nio-auto-1-exec-6] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InternalAuthenticationServiceException, Connect timed out executing GET http://rh-usuario/usuario/busca?email=admin%40gmail.com
+2022-08-07 16:15:32.829  WARN 28204 --- [http-nio-auto-1-exec-7] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InternalAuthenticationServiceException, com.netflix.client.ClientException: Load balancer does not have available server for client: rh-usuario
+2022-08-07 16:15:34.101  WARN 28204 --- [http-nio-auto-1-exec-8] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InternalAuthenticationServiceException, com.netflix.client.ClientException: Load balancer does not have available server for client: rh-usuario
+2022-08-07 16:15:35.292  WARN 28204 --- [http-nio-auto-1-exec-9] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InternalAuthenticationServiceException, com.netflix.client.ClientException: Load balancer does not have available server for client: rh-usuario
+2022-08-07 16:15:36.312  WARN 28204 --- [http-nio-auto-1-exec-10] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InternalAuthenticationServiceException, com.netflix.client.ClientException: Load balancer does not have available server for client: rh-usuario
+2022-08-07 16:15:37.319  WARN 28204 --- [http-nio-auto-1-exec-1] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InternalAuthenticationServiceException, com.netflix.client.ClientException: Load balancer does not have available server for client: rh-usuario
+2022-08-07 16:15:37.958  WARN 28204 --- [http-nio-auto-1-exec-2] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InternalAuthenticationServiceException, com.netflix.client.ClientException: Load balancer does not have available server for client: rh-usuario
+2022-08-07 16:15:38.516  WARN 28204 --- [http-nio-auto-1-exec-3] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InternalAuthenticationServiceException, com.netflix.client.ClientException: Load balancer does not have available server for client: rh-usuario
+2022-08-07 16:15:39.330  WARN 28204 --- [http-nio-auto-1-exec-4] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InternalAuthenticationServiceException, com.netflix.client.ClientException: Load balancer does not have available server for client: rh-usuario
+2022-08-07 16:15:39.893  WARN 28204 --- [http-nio-auto-1-exec-5] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InternalAuthenticationServiceException, com.netflix.client.ClientException: Load balancer does not have available server for client: rh-usuario
+2022-08-07 16:15:40.387  WARN 28204 --- [http-nio-auto-1-exec-6] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InternalAuthenticationServiceException, com.netflix.client.ClientException: Load balancer does not have available server for client: rh-usuario
+2022-08-07 16:15:40.926  WARN 28204 --- [http-nio-auto-1-exec-7] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InternalAuthenticationServiceException, com.netflix.client.ClientException: Load balancer does not have available server for client: rh-usuario
+2022-08-07 16:15:41.558  WARN 28204 --- [http-nio-auto-1-exec-8] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InternalAuthenticationServiceException, com.netflix.client.ClientException: Load balancer does not have available server for client: rh-usuario
+2022-08-07 16:15:42.042  WARN 28204 --- [http-nio-auto-1-exec-9] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InternalAuthenticationServiceException, com.netflix.client.ClientException: Load balancer does not have available server for client: rh-usuario
+2022-08-07 16:15:42.649  WARN 28204 --- [http-nio-auto-1-exec-10] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InternalAuthenticationServiceException, com.netflix.client.ClientException: Load balancer does not have available server for client: rh-usuario
+2022-08-07 16:15:51.428  WARN 28204 --- [http-nio-auto-1-exec-1] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InternalAuthenticationServiceException, com.netflix.client.ClientException: Load balancer does not have available server for client: rh-usuario
+2022-08-07 16:15:52.600  WARN 28204 --- [http-nio-auto-1-exec-2] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InternalAuthenticationServiceException, com.netflix.client.ClientException: Load balancer does not have available server for client: rh-usuario
+2022-08-07 16:15:53.724  WARN 28204 --- [http-nio-auto-1-exec-3] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InternalAuthenticationServiceException, com.netflix.client.ClientException: Load balancer does not have available server for client: rh-usuario
+2022-08-07 16:15:54.973  WARN 28204 --- [http-nio-auto-1-exec-4] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InternalAuthenticationServiceException, com.netflix.client.ClientException: Load balancer does not have available server for client: rh-usuario
+2022-08-07 16:15:56.087  WARN 28204 --- [http-nio-auto-1-exec-5] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InternalAuthenticationServiceException, com.netflix.client.ClientException: Load balancer does not have available server for client: rh-usuario
+2022-08-07 16:15:57.027  WARN 28204 --- [http-nio-auto-1-exec-6] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InternalAuthenticationServiceException, com.netflix.client.ClientException: Load balancer does not have available server for client: rh-usuario
+2022-08-07 16:15:57.900  WARN 28204 --- [http-nio-auto-1-exec-7] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InternalAuthenticationServiceException, com.netflix.client.ClientException: Load balancer does not have available server for client: rh-usuario
+2022-08-07 16:15:58.837  WARN 28204 --- [http-nio-auto-1-exec-8] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InternalAuthenticationServiceException, com.netflix.client.ClientException: Load balancer does not have available server for client: rh-usuario
+2022-08-07 16:15:59.722  WARN 28204 --- [http-nio-auto-1-exec-9] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InternalAuthenticationServiceException, com.netflix.client.ClientException: Load balancer does not have available server for client: rh-usuario
+2022-08-07 16:16:00.646  WARN 28204 --- [http-nio-auto-1-exec-10] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InternalAuthenticationServiceException, com.netflix.client.ClientException: Load balancer does not have available server for client: rh-usuario
+2022-08-07 16:16:01.526  WARN 28204 --- [http-nio-auto-1-exec-1] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InternalAuthenticationServiceException, com.netflix.client.ClientException: Load balancer does not have available server for client: rh-usuario
+2022-08-07 16:16:02.405  WARN 28204 --- [http-nio-auto-1-exec-2] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InternalAuthenticationServiceException, com.netflix.client.ClientException: Load balancer does not have available server for client: rh-usuario
+2022-08-07 16:16:03.469  INFO 28204 --- [http-nio-auto-1-exec-3] c.d.hroauth.services.UsuarioService      : Email found: admin@gmail.com
+2022-08-07 16:16:04.062  INFO 28204 --- [http-nio-auto-1-exec-4] c.d.hroauth.services.UsuarioService      : Email found: admin@gmail.com
+2022-08-07 16:16:11.062 ERROR 28204 --- [http-nio-auto-1-exec-5] c.d.hroauth.services.UsuarioService      : Email not found: nina@gmail.com
+2022-08-07 16:16:11.135  WARN 28204 --- [http-nio-auto-1-exec-5] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InvalidGrantException, Bad credentials
+2022-08-07 16:16:18.476  INFO 28204 --- [http-nio-auto-1-exec-6] c.d.hroauth.services.UsuarioService      : Email found: operadoor@gmail.com
+2022-08-07 16:16:22.196  INFO 28204 --- [http-nio-auto-1-exec-7] c.d.hroauth.services.UsuarioService      : Email found: all@gmail.com
+2022-08-07 16:16:26.750 ERROR 28204 --- [http-nio-auto-1-exec-8] c.d.hroauth.services.UsuarioService      : Email not found: none@gmail.com
+2022-08-07 16:16:26.823  WARN 28204 --- [http-nio-auto-1-exec-8] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InvalidGrantException, Bad credentials
+2022-08-07 16:18:52.493  INFO 28204 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

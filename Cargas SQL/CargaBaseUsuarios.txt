@@ -1,0 +1,23 @@
+DELETE FROM role;
+INSERT INTO role 
+(	id, 	role_name			,ativo		,data_criacao	,tipo_alteracao	) VALUES
+(	1, 		'ROLE_OPERATOR'		,'S'		,NOW()			, 'INSERT'		),
+(	2, 		'ROLE_ADMIN'		,'S'		,NOW()			, 'INSERT'		),
+(	3, 		'ROLE_CLIENTE'		,'S'		,NOW()			, 'INSERT'		),
+(	4, 		'ROLE_GERENTE'		,'N'		,NOW()			, 'INSERT'		);
+
+
+DELETE FROM usuario;
+INSERT INTO usuario 
+(id		,email					,nome		,password														,ativo	,data_criacao	,tipo_alteracao	) VALUES
+(1		,'admin@gmail.com'		,'Admin'	,'$2a$10$NYFZ/8WaQ3Qb6FCs.00jce4nxX9w7AkgWVsQCG6oUwTAcZqP9Flqu'	,'S'	,NOW()			,'INSERT'		),
+(2		,'operadoor@gmail.com'	,'Operador'	,'$2a$10$NYFZ/8WaQ3Qb6FCs.00jce4nxX9w7AkgWVsQCG6oUwTAcZqP9Flqu'	,'S'	,NOW()			,'INSERT'		),
+(3		,'all@gmail.com'		,'All'		,'$2a$10$NYFZ/8WaQ3Qb6FCs.00jce4nxX9w7AkgWVsQCG6oUwTAcZqP9Flqu'	,'S'	,NOW()			,'INSERT'		);
+
+DELETE FROM usuario_role;
+INSERT INTO usuario_role 
+(id_usuario	,id_role) VALUES
+(1			,2		),
+(2			,1		),
+(3			,1		),
+(3			,2		);
